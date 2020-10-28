@@ -312,6 +312,27 @@ hi! link helpCommand DraculaPurple
 hi! link helpExample DraculaGreen
 hi! link helpBacktick Special
 
+" Tree-Sitter integration
+" highlight! link TSAnnotation      DraculaPurple
+" highlight! link TSAttribute       DraculaCyan
+" highlight! link TSConstBuiltin    DraculaGreen
+" highlight! link TSConstMacro      DraculaPurple
+" highlight! link TSFuncMacro       DraculaCyan
+" highlight! link TSInclude         DraculaPink
+" highlight! link TSKeywordOperator DraculaPurple
+" highlight! link TSNamespace       DraculaPurple
+" highlight! link TSParameter       DraculaFg
+" highlight! link TSPunct           DraculaOrange
+" highlight! link TSTag             DraculaRed
+
+highlight! link TSConstant        DraculaOrangeItalic
+highlight! link TSConstructor     DraculaGreen
+highlight! link TSError           DraculaRed
+highlight! link TSFuncBuiltin     DraculaCyan
+highlight! link TSType            DraculaCyan
+highlight! link TSTypeBuiltin     DraculaCyanItalic
+highlight! link TSVariableBuiltin DraculaPurpleItalic
+
 "}}}
 
 " vim: fdm=marker ts=2 sts=2 sw=2 fdl=0 et:
